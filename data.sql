@@ -28,9 +28,9 @@ SET time_zone = "+00:00";
 -- Cấu trúc bảng cho bảng `block`
 --
 
-CREATE TABLE block (
-  idBlock varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  idBlocked varchar(255) COLLATE utf8_unicode_ci NOT NULL
+CREATE TABLE `block` (
+  `idBlock` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `idBlocked` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
